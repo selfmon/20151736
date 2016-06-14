@@ -1,0 +1,20 @@
+﻿빌드 시작: 2016-04-19 오후 11:23:15
+     1>2 노드의 "C:\Users\a777\Desktop\miniGames\Football\Football.vcxproj" 프로젝트(Build 대상)입니다.
+       프로젝트 파일에 ToolsVersion="14.0"이(가) 들어 있습니다. 이 도구 집합을 알 수 없거나 누락되었습니다. 이 도구 집합에 적합한 .NET Framework를 설치하면 이 문제를 해결할 수 있습니다. 프로젝트에 ToolsVersion="4.0"이 들어 있는 것으로 간주합니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt FootBall_main.cpp
+         FootBall_main.cpp
+     1>FootBall_main.cpp(213): warning C4267: '인수' : 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>FootBall_main.cpp(631): warning C4267: '=' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>FootBall_main.cpp(662): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\a777\Desktop\miniGames\x64\Debug\Football.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\a777\Desktop\miniGames\x64\Debug\Football.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\a777\Desktop\miniGames\x64\Debug\Football.lib" /MACHINE:X64 "x64\Debug\football class.obj"
+         x64\Debug\FootBall_main.obj
+         x64\Debug\main.obj
+         x64\Debug\Screen.obj
+         Football.vcxproj -> C:\Users\a777\Desktop\miniGames\x64\Debug\Football.exe
+     1>"C:\Users\a777\Desktop\miniGames\Football\Football.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.90
